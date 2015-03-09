@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp" >
+
+        <EditText
+            android:id="@+id/edtusername"
+            android:layout_width="220dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/backgrid1"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/username" >
+
+            <requestFocus />
+        </EditText>
+
+        <ImageView
+            android:id="@+id/imgusername"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"/>
+            <!--android:src="@drawable/username" />-->
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtline"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#845A76" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp" >
+
+        <EditText
+            android:id="@+id/edtpassword"
+            android:layout_width="220dp"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/backgrid1"
+            android:gravity="center"
+            android:hint="@string/password" />
+
+        <ImageView
+            android:id="@+id/imgpassword"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_key" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtline2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#845A76" />
+
+    <Button
+        android:id="@+id/btnwelcom"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/backgrid1"
+        android:text="@string/welcom" />
+
+</LinearLayout>

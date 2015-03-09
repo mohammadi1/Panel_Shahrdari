@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title">#3D0F34</color>
+    <color name="text_color">#fbc5fb</color>
+    <color name="shahrdaritheme_color">#DCF0FA</color>
+    <color name="title_color">#142D50</color>
+    <color name="pressed_btn">#000000</color>
+    <color name="text_colors">#2E0525</color>
+    <color name="text_color_2">#fbc5fb</color>
+    <color name="sweep_menu_color">#FADCFA</color>
+    <color name="list_selectr">#3272CB</color>
+</resources>

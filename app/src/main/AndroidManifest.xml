@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ipa.Panel_Shahrdari" >
+
+    <application
+        android:name=".Panel_shahrdariapp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_panel"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />//dastresi be shabake va chek kardan vazeiat an gabl az etesal be internet
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />//dastresi be wifi
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />//taghir vazeiat shabake
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />//taghir vazeiat wifi
+        <uses-permission android:name="android.permission.INTERNET" />//etesal be internet
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />//estefade az hafeze khareji baraye zakhire etelaat
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />//  required for your application to be able to read that state
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />//baraye khandane etelaat zakhire shode bar roye hafeze dastgah
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />//baraye estefade az Network
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />//baraye estefade az Network va Gps
+
+
+
+        <activity
+            android:name=".Act_Splash"
+
+            android:label="@string/app_name"
+             android:theme="@style/Theme.AppCompat"   >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Act_Shahrdar"   android:theme="@style/Theme.AppCompat"     >
+        </activity>
+        <activity android:name=".Act_Shora"   android:theme="@style/Theme.AppCompat"    >
+        </activity>
+        <activity android:name="Act_comment"   android:theme="@style/Theme.AppCompat"    >
+        </activity>
+        <activity android:name=".Act_Gallery"   android:theme="@style/Theme.AppCompat"   >
+        </activity>
+        <activity android:name=".Act_NewsShahrdary"   android:theme="@style/Theme.AppCompat"   >
+        </activity>
+        <activity android:name=".Act_Newspaper"   android:theme="@style/Theme.AppCompat"   >
+        </activity>
+        <activity android:name=".Act_Notification"   android:theme="@style/Theme.AppCompat"   >
+        </activity>
+        <activity android:name=".Act_CompetitionImages"   android:theme="@style/Theme.AppCompat"   >
+        </activity>
+        <activity android:name=".Act_ImagesReceived"   android:theme="@style/Theme.AppCompat"   >
+        </activity>
+        <activity android:name=".Act_LoginManage"   android:theme="@style/Theme.AppCompat"   >
+        </activity>
+        <activity
+            android:name=".Act_Login"
+            android:theme="@style/Theme.AppCompat"    >
+        </activity>
+        <activity android:theme="@style/Theme.AppCompat"       android:name=".Act_answer"></activity>
+        <activity android:name=".Act_SendNotification"   android:theme="@style/Theme.AppCompat"   ></activity>
+        <activity android:name=".Act_ListNotification"   android:theme="@style/Theme.AppCompat"   ></activity>
+        <activity android:name=".Act_EditNotification"   android:theme="@style/Theme.AppCompat"   ></activity>
+        <activity android:name="Act_incantation"   android:theme="@style/Theme.AppCompat"   ></activity>
+        <activity android:name=".Act_NewJob"   android:theme="@style/Theme.AppCompat"   ></activity>
+        <activity
+            android:name=".Act_Home"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat">
+        </activity>
+    </application>
+
+</manifest>

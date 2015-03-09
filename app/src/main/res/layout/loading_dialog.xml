@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/title_color"
+    android:orientation="vertical"
+    android:paddingBottom="8dp" >
+
+    <ImageView
+        android:id="@+id/imgLoading"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:scaleType="fitCenter"
+        android:padding="15dp"
+        android:src="@drawable/ic_btnhelp"/>
+
+    <TextView
+        android:id="@+id/lblLoadingTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgLoading"
+        android:layout_alignTop="@+id/imgLoading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="3dp"
+        android:layout_toLeftOf="@+id/imgLoading"
+        android:text="Large Text"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/lblLoadingText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="5dp"
+        android:paddingRight="5dp"
+        android:text="Medium Text"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imgLoading"
+        android:layout_margin="4dp"
+        android:background="@color/text_color_2"
+        android:text="TextView" />
+
+</RelativeLayout>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCF0FA"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp" >
+
+        <GridView
+            android:id="@+id/gridv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:numColumns="3" >
+
+        </GridView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_margin="20dp"
+      
+        android:text="Button" />
+  <!-- android:background="@drawable/back1"          android:background="@drawable/back1" -->
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <EditText
+                    android:id="@+id/edtnamemahal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:gravity="right|center" />
+
+                <TextView
+                    android:id="@+id/txtpoint"
+                    android:layout_width="100dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="bottom|center"
+                    android:text="@string/str_n" />
+
+                <TextView
+                    android:id="@+id/txtnamemahal"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:gravity="right|center"
+                    android:text="@string/sub_jobs_name"
+                    android:textColor="#000000"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <EditText
+                    android:id="@+id/edtmodir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:ems="10" />
+
+                <TextView
+                    android:id="@+id/txtpoint1"
+                    android:layout_width="100dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="bottom|center"
+                    android:text="@string/str_n" />
+
+                <TextView
+                    android:id="@+id/txtmodir"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:gravity="right|center"
+                    android:text="@string/sub_jobs_managenment"
+                    android:textColor="#000000"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <EditText
+                    android:id="@+id/edtaddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:ems="10" >
+
+                    <requestFocus />
+                </EditText>
+
+                <TextView
+                    android:id="@+id/txtpoint2"
+                    android:layout_width="100dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="bottom|center"
+                    android:text="@string/str_n" />
+
+                <TextView
+                    android:id="@+id/txtaddress"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:gravity="right|center"
+                    android:text="@string/sub_jobs_address"
+                    android:textColor="#000000"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <EditText
+                    android:id="@+id/edtphon1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <TextView
+                    android:id="@+id/txtpoint3"
+                    android:layout_width="100dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="right|center"
+                    android:text="@string/str_n" />
+
+                <TextView
+                    android:id="@+id/txtphon1"
+                    android:layout_width="150dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:gravity="right|center"
+                    android:text="@string/sub_jobs_phone"
+                    android:textColor="#000000"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="12" >
+
+                    <TextView
+                        android:id="@+id/txtpoint4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="12"
+                        android:gravity="right|center"
+                        android:text="@string/str_n" />
+
+                    <TextView
+                        android:id="@+id/txttozihat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right|center"
+                        android:padding="5dp"
+                        android:text="@string/sub_job_desc"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/edttozihat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:gravity="top|right"
+                    android:minHeight="50dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <Spinner
+                    android:id="@+id/spngroup"
+                    android:layout_width="360dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/txtgroup"
+                    android:layout_width="240dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:gravity="right|center"
+                    android:padding="5dp"
+                    android:text="@string/str_group_job"
+                    android:textColor="#000000"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <Spinner
+                    android:id="@+id/spnsubgroup"
+                    android:layout_width="295dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/txtsubgroup"
+                    android:layout_width="190dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:gravity="right|center"
+                    android:padding="5dp"
+                    android:text="@string/str_grup_2"
+                    android:textColor="#000000"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" >
+
+                <Button
+                    android:id="@+id/btnersal"
+                    android:layout_width="320dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="20dp"
+                    android:layout_weight="1"
+           
+                    android:text="@string/str_send"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/list_selector" >
+
+<!--  
+	<tools.ipa.RoundedImageView 
+     android:id="@+id/img_Search_Job_Adapter"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:scaleType="fitXY"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_lavazem" />
+        -->
+
+    <ImageView
+        android:id="@+id/img_Search_Job_Adapter"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:padding="5dp"
+        android:src="@drawable/ic_lavazem" />
+
+    <TextView
+        android:id="@+id/lbl_Search_Job_Adapter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="18dp"
+        android:layout_toLeftOf="@+id/img_Search_Job_Adapter"
+        android:gravity="right|center"
+        android:paddingRight="5dp"
+        android:text="TextView"
+        android:textSize="15sp" />
+
+</RelativeLayout>
